@@ -6,7 +6,7 @@ function speak() {
     const voices = speechSynthesis.getVoices();
     utterance.voice = voices[0]; // Choose a specific voice
   
-    utterance.lang = 'id-ID';
+    utterance.lang = 'jv';
     utterThis.rate = 0.5
     // Speak the text
     speechSynthesis.speak(utterance);
