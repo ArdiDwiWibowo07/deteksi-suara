@@ -1,6 +1,6 @@
 function speak() {
     // Create a SpeechSynthesisUtterance
-    const utterance = new SpeechSynthesisUtterance('Peline kang yuli!, cilik!, dibuntel plastik munine mak ngik');
+    const utterance = new SpeechSynthesisUtterance('Peli ne kang yuli!, cilik!, dibuntel plastik munine mak ngik');
   
     // Select a voice
     const voices = speechSynthesis.getVoices();
